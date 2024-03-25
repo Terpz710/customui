@@ -19,7 +19,7 @@ abstract class SubCommand
     }
 
     /**
-     * @return Plugin|Loader
+     * @return Loader
      */
     public final function getPlugin(): Loader
     {
