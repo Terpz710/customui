@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace xenialdan\customui\windows;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 trait CallableTrait
 {
