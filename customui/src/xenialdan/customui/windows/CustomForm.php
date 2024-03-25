@@ -35,7 +35,7 @@ class CustomForm implements CustomUI
         $this->elements[] = $element;
     }
 
-    public function jsonSerialize(): array
+    public function jsonSerialize(): mixed
     {
         $data = [
             'type' => 'custom_form',
