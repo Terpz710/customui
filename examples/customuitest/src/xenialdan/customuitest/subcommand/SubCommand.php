@@ -7,13 +7,13 @@ use xenialdan\customuitest\Loader as Plugin;
 
 abstract class SubCommand
 {
-    /** @var Plugin */
+    /** @var Loader */
     private $plugin;
 
     /**
      * @param Loader $plugin
      */
-    public function __construct(Plugin $plugin)
+    public function __construct(Loader $plugin)
     {
         $this->plugin = $plugin;
     }
