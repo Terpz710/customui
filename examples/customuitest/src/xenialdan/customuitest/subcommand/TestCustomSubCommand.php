@@ -10,6 +10,10 @@ use xenialdan\customuitest\Loader;
 class TestCustomSubCommand extends SubCommand
 {
 
+    public function __construct(Loader $plugin) {
+        $this->plugin = $plugin;
+    }
+
     public function canUse(CommandSender $sender)
     {
         return ($sender instanceof Player) and $sender->hasPermission("cui.command.testcustom");
