@@ -21,7 +21,7 @@ class Commands extends Command
 
     public function __construct(Plugin $plugin)
     {
-        parent::__construct("cui", $plugin);
+        parent::__construct("cui");
         $this->setAliases(["cui"]);
         $this->setPermission("cui.command");
         $this->setDescription("The main commands for cui");
