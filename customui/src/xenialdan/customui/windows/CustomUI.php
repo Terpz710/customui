@@ -3,7 +3,7 @@
 namespace xenialdan\customui\windows;
 
 use pocketmine\form\Form;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use xenialdan\customui\elements\Button;
 use xenialdan\customui\elements\UIElement;
 
