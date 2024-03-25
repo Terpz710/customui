@@ -3,7 +3,7 @@
 namespace xenialdan\customuitest\subcommand;
 
 use pocketmine\command\CommandSender;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use xenialdan\customui\API as UIAPI;
 use xenialdan\customuitest\Loader;
 
