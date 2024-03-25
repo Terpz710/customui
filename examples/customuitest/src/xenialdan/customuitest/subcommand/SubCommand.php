@@ -7,15 +7,15 @@ use pocketmine\plugin\Plugin;
 use pocketmine\plugin\PluginOwned;
 use xenialdan\customuitest\Loader;
 
-abstract class SubCommand implements PluginOwned
+abstract class SubCommand
 {
-    /** @var Loader */
-    private Loader $plugin;
+    /** @var Plugin */
+    private $plugin;
 
     /**
      * @param Loader $plugin
      */
-    public function __construct(Loader $plugin)
+    public function __construct(Plugin $plugin)
     {
         $this->plugin = $plugin;
     }
