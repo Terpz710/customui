@@ -3,7 +3,7 @@
 namespace xenialdan\customuitest\subcommand;
 
 use pocketmine\command\CommandSender;
-use xenialdan\customuitest\Loader as Plugin;
+use xenialdan\customuitest\Loader;
 
 abstract class SubCommand
 {
