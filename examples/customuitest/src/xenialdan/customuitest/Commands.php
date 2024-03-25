@@ -3,8 +3,8 @@
 namespace xenialdan\customuitest;
 
 use pocketmine\command\CommandSender;
-use pocketmine\command\PluginCommand;
-use pocketmine\Player;
+use pocketmine\command\Command;
+use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
 use pocketmine\utils\TextFormat;
 use xenialdan\customuitest\subcommand\SubCommand;
@@ -12,7 +12,7 @@ use xenialdan\customuitest\subcommand\TestCustomSubCommand;
 use xenialdan\customuitest\subcommand\TestModalSubCommand;
 use xenialdan\customuitest\subcommand\TestSimpleSubCommand;
 
-class Commands extends PluginCommand
+class Commands extends Command
 {
     private $subCommands = [];
 
