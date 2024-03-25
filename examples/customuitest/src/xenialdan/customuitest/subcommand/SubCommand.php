@@ -4,9 +4,10 @@ namespace xenialdan\customuitest\subcommand;
 
 use pocketmine\command\CommandSender;
 use pocketmine\plugin\Plugin;
+use pocketmine\plugin\PluginOwned;
 use xenialdan\customuitest\Loader;
 
-abstract class SubCommand
+abstract class SubCommand implements PluginOwned
 {
     /** @var Plugin */
     private $plugin;
@@ -22,11 +23,10 @@ abstract class SubCommand
     /**
      * @return Plugin|Loader
      */
-    public final function getPlugin()
-    {
+    public function getOwningPlugin(): Plugin {
         return $this->plugin;
     }
-
+    
     /**
      * @param CommandSender $sender
      * @return bool
