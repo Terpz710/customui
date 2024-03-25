@@ -2,7 +2,7 @@
 
 namespace xenialdan\customui\windows;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 use xenialdan\customui\elements\Button;
 use xenialdan\customui\elements\UIElement;
 
@@ -35,7 +35,7 @@ class CustomForm implements CustomUI
         $this->elements[] = $element;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         $data = [
             'type' => 'custom_form',
