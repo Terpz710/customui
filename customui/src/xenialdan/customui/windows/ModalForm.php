@@ -3,7 +3,7 @@
 namespace xenialdan\customui\windows;
 
 use pocketmine\form\FormValidationException;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 use xenialdan\customui\elements\UIElement;
@@ -39,7 +39,7 @@ class ModalForm implements CustomUI
         $this->falseButtonText = $falseButtonText;
     }
 
-    final public function jsonSerialize()
+    final public function jsonSerialize(): array
     {
         return [
             'type' => 'modal',
