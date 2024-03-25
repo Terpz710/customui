@@ -9,13 +9,13 @@ use xenialdan\customuitest\Loader;
 
 abstract class SubCommand implements PluginOwned
 {
-    /** @var Plugin */
-    private $plugin;
+    /** @var Loader */
+    private Loader $plugin;
 
     /**
-     * @param Plugin $plugin
+     * @param Loader $plugin
      */
-    public function __construct(Plugin $plugin)
+    public function __construct(Loader $plugin)
     {
         $this->plugin = $plugin;
     }
