@@ -2,7 +2,7 @@
 
 namespace xenialdan\customuitest;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use xenialdan\customui\API as UIAPI;
 use xenialdan\customui\elements\Button;
@@ -23,7 +23,7 @@ class Loader extends PluginBase
     /** @var int[] */
     public static $uis;
 
-    public function onEnable()
+    public function onEnable(): void
     {
         $this->getServer()->getCommandMap()->register(Commands::class, new Commands($this));
         try {
