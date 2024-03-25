@@ -42,7 +42,7 @@ class SimpleForm implements CustomUI
         $this->buttons[] = $button;
     }
 
-    final public function jsonSerialize(): array
+    final public function jsonSerialize(): mixed
     {
         $data = [
             'type' => 'form',
