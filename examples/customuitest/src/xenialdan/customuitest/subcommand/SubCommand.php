@@ -23,7 +23,8 @@ abstract class SubCommand
     /**
      * @return Plugin|Loader
      */
-    public function getOwningPlugin(): Plugin {
+    public final function getPlugin()
+    {
         return $this->plugin;
     }
     
