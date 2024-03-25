@@ -3,7 +3,7 @@
 namespace xenialdan\customui\windows;
 
 use pocketmine\form\FormValidationException;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use xenialdan\customui\elements\Button;
 use xenialdan\customui\elements\UIElement;
 
@@ -42,7 +42,7 @@ class SimpleForm implements CustomUI
         $this->buttons[] = $button;
     }
 
-    final public function jsonSerialize()
+    final public function jsonSerialize(): array
     {
         $data = [
             'type' => 'form',
