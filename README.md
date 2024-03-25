@@ -1,8 +1,8 @@
 # customui
-Library status + Virion download: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/thebigsmileXD/customui/customui)](https://poggit.pmmp.io/ci/thebigsmileXD/customui/customui)
-Example Plugin Status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/thebigsmileXD/customui/customuitest)](https://poggit.pmmp.io/ci/thebigsmileXD/customui/customuitest)
+Library status + Virion download: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/Terpz710/customui/customui)](https://poggit.pmmp.io/ci/Terpz710/customui/customui)
+Example Plugin Status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/Terpz710/customui/customuitest)](https://poggit.pmmp.io/ci/Terpz710/customui/customuitest)
 
-Library to create custom UI's in MCPE 1.2+
+Library to create custom UI's in MCPE 1.20+
 ## Lets you:
 - Create custom UI's
 - Send/close them to/from players
@@ -35,3 +35,9 @@ Read [the virion support information](https://github.com/poggit/support) and the
 
 ---
 **_`As of: 20. November 2018`_**
+
+^ Old
+
+**_`As of: 25. March 2024`_**
+
+^ New
