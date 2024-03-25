@@ -6,4 +6,5 @@ load: POSTWORLD
 authors: [XenialDan]
 
 permissions:
+  cui.command:
   default: true
