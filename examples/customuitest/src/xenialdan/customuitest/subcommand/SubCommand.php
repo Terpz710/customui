@@ -8,7 +8,7 @@ use xenialdan\customuitest\Loader as Plugin;
 abstract class SubCommand
 {
     /** @var Loader */
-    private $plugin;
+    private Loader $plugin;
 
     /**
      * @param Loader $plugin
@@ -21,7 +21,7 @@ abstract class SubCommand
     /**
      * @return Plugin|Loader
      */
-    public final function getPlugin()
+    public final function getPlugin(): Loader
     {
         return $this->plugin;
     }
