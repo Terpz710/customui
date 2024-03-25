@@ -3,7 +3,7 @@ main: xenialdan\customuitest\Loader
 version: 1.0.1
 api: ['5.0.0']
 load: POSTWORLD
-authors: [XenialDan]
+authors: [XenialDan, Terpz710]
 
 permissions:
   cui.command:
