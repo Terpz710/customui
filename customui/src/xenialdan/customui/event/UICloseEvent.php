@@ -23,7 +23,7 @@ namespace xenialdan\customui\event;
 
 
 use pocketmine\network\mcpe\protocol\DataPacket;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
 
 class UICloseEvent extends UIEvent
