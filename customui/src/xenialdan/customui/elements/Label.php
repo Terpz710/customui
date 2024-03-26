@@ -2,7 +2,7 @@
 
 namespace xenialdan\customui\elements;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 class Label extends UIElement
 {
@@ -19,7 +19,7 @@ class Label extends UIElement
      *
      * @return array
      */
-    final public function jsonSerialize()
+    final public function jsonSerialize(): mixed
     {
         return [
             "type" => "label",
