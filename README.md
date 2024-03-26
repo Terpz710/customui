@@ -33,6 +33,14 @@ When developing plugins, you want to get [DEVirion](https://github.com/poggit/de
 
 Read [the virion support information](https://github.com/poggit/support) and the [customui wiki](https://github.com/thebigsmilexd/customui/wiki) for more in-depth explanations
 
+# Virion
+
+```
+libs:
+    - src: Terpz710/customui/customui
+      version: "^3.0.0"
+```
+
 ---
 **_`As of: 20. November 2018`_**
 
