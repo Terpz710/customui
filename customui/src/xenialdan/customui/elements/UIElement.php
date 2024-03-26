@@ -2,7 +2,7 @@
 
 namespace xenialdan\customui\elements;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 abstract class UIElement implements \JsonSerializable
 {
@@ -14,7 +14,7 @@ abstract class UIElement implements \JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         return [];
     }
