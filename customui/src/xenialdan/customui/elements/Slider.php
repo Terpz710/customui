@@ -3,7 +3,7 @@
 namespace xenialdan\customui\elements;
 
 use Exception;
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 class Slider extends UIElement
 {
@@ -67,7 +67,7 @@ class Slider extends UIElement
      *
      * @return array
      */
-    final public function jsonSerialize()
+    final public function jsonSerialize(): mixed
     {
         $data = [
             "type" => "slider",
