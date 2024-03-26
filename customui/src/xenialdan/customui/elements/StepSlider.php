@@ -2,7 +2,7 @@
 
 namespace xenialdan\customui\elements;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 class StepSlider extends UIElement
 {
@@ -65,7 +65,7 @@ class StepSlider extends UIElement
      *
      * @return array
      */
-    final public function jsonSerialize()
+    final public function jsonSerialize(): mixed
     {
         return [
             'type' => 'step_slider',
