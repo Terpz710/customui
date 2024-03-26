@@ -2,7 +2,7 @@
 
 namespace xenialdan\customui\elements;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 class Toggle extends UIElement
 {
@@ -32,7 +32,7 @@ class Toggle extends UIElement
     /**
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         return [
             "type" => "toggle",
