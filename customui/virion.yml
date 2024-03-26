@@ -1,5 +1,5 @@
 name: customui
-version: 3.0.0
+version: 3.0.1
 antigen: xenialdan\customui
 api: ['5.0.0']
 php: [8.1]
