@@ -7,6 +7,6 @@ projects:
   customuitest:
     path: examples/customuitest
     libs:
-    - src: thebigsmilexd/customui/customui
+    - src: Terpz710/customui/customui
       version: "^3.0.0"
 ...
