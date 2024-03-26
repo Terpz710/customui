@@ -2,7 +2,7 @@
 
 namespace xenialdan\customui\elements;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 class Dropdown extends UIElement
 {
@@ -65,7 +65,7 @@ class Dropdown extends UIElement
      *
      * @return array
      */
-    final public function jsonSerialize()
+    final public function jsonSerialize(): mixed
     {
         return [
             'type' => 'dropdown',
