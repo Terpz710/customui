@@ -38,7 +38,7 @@ Read [the virion support information](https://github.com/poggit/support) and the
 ```
 libs:
     - src: Terpz710/customui/customui
-      version: "^3.0.0"
+      version: "^3.0.1"
 ```
 
 ---
